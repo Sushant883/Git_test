@@ -1,0 +1,13 @@
+.img{
+    width: 150px;
+    height: 150px;
+}
+.ul-heading{
+    background-color: antiquewhite;
+    border: 2px solid rgb(50, 121, 121);
+    border-radius: 2px;
+    width: 30%;
+    padding: 2px;
+    text-align: center;
+    justify-content: center;
+}
