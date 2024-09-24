@@ -1,0 +1,31 @@
+.p1{
+    border: 2px solid #d21717;
+    color: #893a3a;
+    border-radius: 2px;
+    margin-right: 4px;
+    padding: 4px;
+}
+.p2{
+    
+    border: 2px solid #da9292;
+    color: #b91616;
+    border-radius: 2px;
+    margin-left: 4px;
+    padding: 4px;
+
+}
+.paracontainer{
+    display: flex;
+
+}
+
+.Ingredients{
+    border: 3px solid rgb(220, 236, 0);
+}
+
+.olincredients{
+    border: 3px solid blue;
+    background-color: aqua;
+    padding: 4px;
+    margin: 5px;
+}
