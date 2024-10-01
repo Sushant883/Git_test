@@ -12,19 +12,115 @@
     justify-content: center;
 }
 
+
+.navbar{
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 15px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #664bd5;
+}
+.ul-items{
+    width: 1000px;
+    /* border: 3px solid rgb(160, 160, 160); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.dish-img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 22px;
+}
+.button-1{
+    margin-left: auto;
+    width: 300px;
+    display: flex;
+    /* border: 2px solid rgb(0, 0, 0); */
+    justify-content: flex-end;
+    align-items: center;
+}
+.button-In{
+    border: none;
+    margin: 25px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #38598b;
+    cursor: pointer;
+    transition: background-color 0.3s easy;
+    box-shadow: #e74c3c;
+}
+.button-In:hover {
+    background-color: #19007d;
+    box-shadow: 0 8px 16px rgba(19, 10, 10, 0.3); 
+}
+
+.nav-li-items{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    /* border: 1px solid rgb(0, 0, 0); */
+    background-color: #a2a8d3; 
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav-li-items:hover{
+    background-color: #19007d;
+    color: white;
+    box-shadow: 0 8px 16px rgba(19, 10, 10, 0.3); 
+
+}
+
+.recipe-link{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #7f87dd; 
+    background-size: cover;
+    display: flex;
+    list-style-type: none;
+    /* border: 2px solid red; */
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .button {
+    text-decoration: none;
     display: inline-block;
     border-radius: 8px;
     border: 5px solid rgb(194, 125, 255);
     text-shadow: 2cap;
     background-color: rgb(235, 213, 255);
-    font-size: 18px;
+    font-size: 20px;
     margin: 5px;
-    padding: 5px;
+    padding: 15px;
     color: rgb(8, 2, 2);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .button:hover{
-    background-color: rgb(202, 146, 255);
+    background-color: rgb(190, 100, 235);
+    border: 5px solid  rgb(235, 213, 255);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
+
+.inner-img{
+    border-radius: 15px;
+    /* border: 3px solid pink; */
+}
+.inner-div{
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
