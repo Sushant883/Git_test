@@ -11,3 +11,22 @@
     text-align: center;
     justify-content: center;
 }
+
+.head{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgb(72, 72, 207);
+    background-color: rgb(186, 186, 211);
+}
+.head1{
+    border: 1px solid violet;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+}
+.para{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(88, 96, 96);
+}
