@@ -29,3 +29,34 @@
     padding: 4px;
     margin: 5px;
 }
+.button {
+    font-size: 20px;
+    border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    border: 2px solid rgb(217, 183, 183);
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: bisque;
+    box-shadow: 5cap;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    text-align: center;
+    
+}
+
+.button:hover{
+    background-color: azure;
+    color: black;
+    text-decoration: dashed;
+}
+.btn{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
