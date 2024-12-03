@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 } */
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Inconsolata:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&family=Yuji+Mai&display=swap');
+
 .img {
     width: 150px;
     height: 150px;
@@ -24,7 +27,8 @@
     /* background-position: center; */
     /* background-repeat: no-repeat; */
     /* border: 2px solid rgb(0, 0, 0); */
-    border-radius: 15px;
+    /* border-radius: 15px; */
+    border-bottom: 2px solid orangered;
     height: 100px;
     display: flex;
     align-items: center;
@@ -102,13 +106,59 @@
 }
 
 
-.nav-content{
-    border: 2px solid red;
-    margin-top: 50px;
+.nav-content {
+    /* border: 2px solid red; */
+    background-image: url(images/savour\ taste\ backimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px 0px;
+    /* margin-left: 0px;
+    margin-right: 0px; */
     text-align: center;
-
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
+.nav-content h1 {
+    /* border: 2px solid red; */
+    font-size: 7vh;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-family: "Yuji Mai", serif;
+    font-weight: bold;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Inconsolata:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Teko:wght@300..700&family=Yuji+Mai&display=swap');
+
+.nav-content p {
+    /* border: 1px solid blueviolet; */
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    /* align-items: center;
+    justify-content: center; */
+    width: 60%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Hachi+Maru+Pop&family=Inconsolata:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Teko:wght@300..700&family=Yuji+Mai&display=swap');
+
+#element{
+    /* border: 1px solid blueviolet; */
+    font-family: "Hachi Maru Pop", cursive;
+    font-size: 30px;
+    padding: 20px;
+    /* align-items: center;
+    justify-content: center; */
+    width: 70%;
+}
 .recipe-link {
     margin-top: 10px;
     border-radius: 10px;
@@ -127,9 +177,9 @@
     text-decoration: none;
     display: inline-block;
     border-radius: 8px;
-    border: 5px solid #dfdfdf;
+    border: 1px solid #dfdfdf;
     text-shadow: 2cap;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     font-size: 20px;
     margin: 5px;
     padding: 15px;
@@ -138,14 +188,16 @@
 }
 
 .button:hover {
-    background-color: #a2a8d3;
+    /* background-color: #a2a8d3; */
     color: black;
-    border: 5px solid #e7eaf6;
+    border: 1px solid #e7eaf6;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .inner-img {
     border-radius: 15px;
+    height: 150px;
+    width: 150px;
     /* border: 3px solid pink; */
 }
 
