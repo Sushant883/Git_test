@@ -1,8 +1,13 @@
-.img{
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+.img {
     width: 150px;
     height: 150px;
 }
-.ul-heading{
+
+/* .ul-heading {
     background-color: antiquewhite;
     border: 2px solid rgb(50, 121, 121);
     border-radius: 2px;
@@ -10,18 +15,24 @@
     padding: 2px;
     text-align: center;
     justify-content: center;
-}
+} */
 
 
-.navbar{
+.navbar {
+    /* background-image: url(images/back\ img\ nav.jpg); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
     /* border: 2px solid rgb(0, 0, 0); */
     border-radius: 15px;
     height: 100px;
     display: flex;
-    justify-content: flex-start;
-    background-color: #dfdfdf;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #dfdfdf; */
 }
-.ul-items{
+
+.ul-items {
     width: 1000px;
     /* border: 3px solid rgb(160, 160, 160); */
     display: flex;
@@ -31,13 +42,14 @@
 
 }
 
-.dish-img{
+.dish-img {
     width: 50px;
     height: 50px;
     margin-left: 10px;
     margin-top: 22px;
 }
-.button-1{
+
+.button-1 {
     margin-left: auto;
     width: 300px;
     display: flex;
@@ -45,46 +57,62 @@
     justify-content: flex-end;
     align-items: center;
 }
-.button-In{
+
+.button-In {
     border: none;
     margin: 25px;
     padding: 10px 20px;
-    border-radius: 10px;
-    font-size: 15px;
-    color: #fff;
-    background-color: #38598b;
-    cursor: pointer;
-    transition: background-color 0.3s easy;
-    box-shadow: #e74c3c;
-}
-.button-In:hover {
-    background-color: #ded5c4;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
     color: #000000;
-    box-shadow: 0 8px 16px rgba(19, 10, 10, 0.3); 
+    /* background-color: #38598b; */
+    cursor: pointer;
+    /* transition: background-color 0.3s easy; */
+    /* box-shadow: #030303; */
 }
 
-.nav-li-items{
+.button-In:hover {
+    /* background-color: #ded5c4;
+    color: #000000;
+    box-shadow: 0 8px 16px rgba(19, 10, 10, 0.3);  */
+    color: rgb(255, 81, 0);
+    border-bottom: 2px solid rgb(255, 81, 0);
+}
+
+.nav-li-items {
     color: rgb(0, 0, 0);
     text-decoration: none;
+    font-weight: bold;
     /* border: 1px solid rgb(0, 0, 0); */
-    /* background-color: #f2f4fb;  */
+    /* background-color: #f2f4fb7b;  */
     font-size: 25px;
     margin: 10px;
     padding: 10px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
-.nav-li-items:hover{
-    background-color: #626164;
+
+.nav-li-items:hover {
+    /* background-color: #626164; */
     transition: translate(100px, 50px);
-    color: white;
-    box-shadow: 0 8px 16px rgba(19, 10, 10, 0.3); 
+    color: rgb(255, 81, 0);
+    border-bottom: 2px solid rgb(255, 81, 0);
+    /* box-shadow: 0 8px 16px rgba(19, 10, 10, 0.3);  */
 
 }
 
-.recipe-link{
+
+.nav-content{
+    border: 2px solid red;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.recipe-link {
     margin-top: 10px;
     border-radius: 10px;
-    background-color:#e6dbb8; 
+    background-color: #e6dbb8;
     background: transparent;
     background-size: cover;
     display: flex;
@@ -94,31 +122,34 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
 .button {
     text-decoration: none;
     display: inline-block;
     border-radius: 8px;
     border: 5px solid #dfdfdf;
     text-shadow: 2cap;
-    background-color: #f4f3f3;
+    background-color: #ffffff;
     font-size: 20px;
     margin: 5px;
     padding: 15px;
     color: rgb(8, 2, 2);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
-.button:hover{
+
+.button:hover {
     background-color: #a2a8d3;
     color: black;
-    border: 5px solid  #e7eaf6;
+    border: 5px solid #e7eaf6;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
-.inner-img{
+.inner-img {
     border-radius: 15px;
     /* border: 3px solid pink; */
 }
-.inner-div{
+
+.inner-div {
     /* border: 3px solid blue; */
     display: flex;
     border-radius: 25px;
@@ -128,9 +159,6 @@
     align-items: center;
     /* border: 2px solid red; */
     margin: 5px;
-    box-shadow: 5px 5px 10px ;
-    background: radial-gradient(circle, rgba(0, 255, 255, 0.97), rgba(0, 0, 0, 0.9));
+    box-shadow: 5px 5px 10px;
+    background: radial-gradient(circle, rgba(217, 217, 217, 0.97), rgba(0, 0, 0, 0.9));
 }
-
-
-
